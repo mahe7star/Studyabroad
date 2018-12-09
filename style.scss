@@ -2,6 +2,8 @@
 
 $usa: #123b46;
 $canada: #206075;
+$germany: #d8a662;
+$uk: #92a281;
 
 * {
   margin: 0;
@@ -13,7 +15,7 @@ $canada: #206075;
   background-position: center;
   background-size: cover;
   height: 100vh;
-  background-color: rgba(35, 14, 14, 0.42);
+  background-color: rgba(35, 14, 14, 0.32);
   background-blend-mode: overlay;
   width: 100%;
 
@@ -194,6 +196,14 @@ $canada: #206075;
     .btn-canada {
       background: $canada;
     }
+
+    .btn-germany {
+      background: $germany;
+    }
+
+    .btn-uk {
+      background: $uk;
+    }
   }
 }
 
@@ -202,4 +212,12 @@ $canada: #206075;
 }
 .bg-canada {
   background-image: url(./canada.jpg);
+}
+.bg-germany {
+  background-image: url(./germany.jpg);
+  background-color: rgba(35, 14, 14, 0.62);
+}
+.bg-uk {
+  background-image: url(./uk.jpg);
+  background-color: transparent;
 }

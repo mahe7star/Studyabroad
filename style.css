@@ -9,7 +9,7 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  background-color: rgba(35, 14, 14, 0.42);
+  background-color: rgba(35, 14, 14, 0.32);
   background-blend-mode: overlay;
   width: 100%;
 }
@@ -212,11 +212,29 @@
   background: #206075;
 }
 
+.bg-wrapper .searchbar-submit-btn .btn-germany {
+  background: #d8a662;
+}
+
+.bg-wrapper .searchbar-submit-btn .btn-uk {
+  background: #92a281;
+}
+
 .bg-usa {
   background-image: url(./us.jpg);
 }
 
 .bg-canada {
   background-image: url(./canada.jpg);
+}
+
+.bg-germany {
+  background-image: url(./germany.jpg);
+  background-color: rgba(35, 14, 14, 0.62);
+}
+
+.bg-uk {
+  background-image: url(./uk.jpg);
+  background-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
