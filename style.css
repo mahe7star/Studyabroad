@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .bg-wrapper {
@@ -22,6 +22,12 @@
 .bg-wrapper .navbar {
   padding: 25px 0;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .bg-wrapper .navbar .logo {
@@ -30,11 +36,12 @@
   font-size: 20px;
 }
 
-.bg-wrapper .navbar .menu img {
-  position: absolute;
-  right: 0;
-  width: 20px;
-  top: 25px;
+.bg-wrapper .navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 90%;
+  margin-left: 10px;
 }
 
 .bg-wrapper .content-wrapper {
@@ -67,7 +74,7 @@
 }
 
 .bg-wrapper .content-wrapper .heading h1::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   height: 2px;
@@ -156,7 +163,7 @@
 }
 
 .bg-wrapper .search-filter::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   width: 1px;

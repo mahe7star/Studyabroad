@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,900');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,900");
 
 $usa: #123b46;
 $canada: #206075;
@@ -8,7 +8,7 @@ $uk: #92a281;
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .bg-wrapper {
@@ -27,6 +27,8 @@ $uk: #92a281;
   .navbar {
     padding: 25px 0;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 
     .logo {
       font-weight: bold;
@@ -34,11 +36,12 @@ $uk: #92a281;
       font-size: 20px;
     }
 
-    .menu img{
-      position: absolute;
-      right: 0;
-      width: 20px;
-      top: 25px;
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 90%;
+      margin-left: 10px;
     }
   }
 
@@ -70,7 +73,7 @@ $uk: #92a281;
       position: relative;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         bottom: -5px;
         height: 2px;
@@ -81,7 +84,7 @@ $uk: #92a281;
 
     .content {
       font-weight: 600;
-      font-size: 14px
+      font-size: 14px;
     }
 
     .support {
@@ -140,7 +143,7 @@ $uk: #92a281;
     padding: 25px 20px 0;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       width: 1px;
@@ -210,13 +213,16 @@ $uk: #92a281;
 .bg-usa {
   background-image: url(./us.jpg);
 }
+
 .bg-canada {
   background-image: url(./canada.jpg);
 }
+
 .bg-germany {
   background-image: url(./germany.jpg);
   background-color: rgba(35, 14, 14, 0.62);
 }
+
 .bg-uk {
   background-image: url(./uk.jpg);
   background-color: transparent;
